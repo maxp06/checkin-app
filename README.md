@@ -1,4 +1,6 @@
-# EX04 - Check-in API and Remote
+# Link to App: https://comp423-ex04-comp590-140-23fa-maxp06.apps.cloudapps.unc.edu/
+
+# Check-in API and Remote
 
 ## Setup
 
@@ -21,8 +23,6 @@ Now that we have two separate servers running on separate ports, we'd like to un
 One other significant benefit of a reverse proxy in this scenario is there are complex security rules at play when a front-end web app attempts to integrate with a server running on a different host or port. We avoid those security concerns by using a reverse proxy that "sits infront" of our development servers for the front-end and backend.
 
 For a reverse proxy, we'll use [Caddy](https://caddyserver.com/), a modern and popular web / proxy server that is easier to configure than former classics such as nginx and Apache.
-
-A `Caddyfile` configuration for EX03 is already established in the project, so all you need to do is:
 
 1. Open a third terminal window and run `caddy start`. You should now be able to browse to `localhost:8080` and see the starter app.
 
