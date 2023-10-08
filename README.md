@@ -1,5 +1,8 @@
 ### Link to App: https://comp423-ex04-comp590-140-23fa-maxp06.apps.cloudapps.unc.edu/
-
+### How to use: 
+- Go into Register form, enter a 9 digit pid and first/last name. You should see the user registered in the stats page.
+- Go into Checkin form, enter a 9 digit pid that is already registered, now that user is checked in. You should see which users have been registered and which have also been checked in inside the stat page.
+  
 # Check-in API and Remote
 
 ## Setup
