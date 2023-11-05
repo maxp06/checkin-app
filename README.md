@@ -2,6 +2,7 @@
 ### How to use: 
 - Go into Register form, enter a 9 digit pid and first/last name. You should see the user registered in the stats page.
 - Go into Checkin form, enter a 9 digit pid that is already registered, now that user is checked in. You should see which users have been registered and which have also been checked in inside the stat page.
+- NOTE: PID must be 9 digits
   
 # Check-in API and Remote
 
